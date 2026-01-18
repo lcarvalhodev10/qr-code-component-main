@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+:root{
+    --corFundo: hsl(212, 45%, 89%); 
+    --corLetra: hsl(216, 15%, 48%); 
+    --corFonte: hsl(218, 44%, 22%); 
+}
+
+body{
+    height: 100vh;
+    background-color: var(--corFundo);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}
+
+img{
+    width: 330px;
+    border-radius: 4%;
+    
+}
+
+section{
+    width: 370px;
+    height: 560px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 10px black;
+}
+.caixa{
+    padding: 20px 8px;
+    font-family: outfit;
+    width: 94%;
+    /* border: 1px solid black; */
+}
+
+
+h1{
+    font-weight: 700;
+    color: var(--corFonte); 
+    font-size: 1.7em;
+}
+
+.para{
+    padding: 15px 0px;
+    font-weight: 400;
+    color: var(--corLetra); 
+    font-size: 1.2em; 
+}
+
+footer{
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+a:hover{
+    cursor: pointer;
+    color: blue; 
+}
